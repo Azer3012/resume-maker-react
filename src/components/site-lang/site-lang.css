@@ -1,0 +1,16 @@
+.site-lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.site-lang img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=site-lang.css.map */

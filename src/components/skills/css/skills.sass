@@ -1,0 +1,57 @@
+.skills
+    h2
+        margin-bottom: 15px
+        font-size: 1.8rem
+        font-weight: 600
+    ul
+        display: flex
+        flex-wrap: wrap
+        
+        
+        li
+            
+            list-style: none
+            position: relative
+            margin-right: 10px
+            margin-bottom: 10px
+            display: flex
+            justify-content: center
+            align-items: center
+            &:hover
+                .add-remove
+                    display: flex !important
+            span
+                
+                display: inline-block
+                border: none
+                padding: 5px 2px
+                border-radius: 5px
+                transition: 0.4s 
+                color: #808080
+                list-style: none
+                position: relative
+                user-select: text  
+                background-color: #dddd  
+                text-align: center
+                text-transform: uppercase
+                &:focus
+                    outline: none
+                &:hover
+                    background-color: #dddd
+            
+            .add-remove
+                position: absolute
+                right: -16px
+                top: -14px
+                display: none
+                transition: 0.6s
+                button
+                    width: 25px
+                    height: 25px
+                    border-radius: 50%
+                    border: none
+                    margin-right: 5px
+                    background-color: #E87C07
+                    font-weight: 800
+                    cursor: pointer
+                    z-index: 1

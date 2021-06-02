@@ -1,0 +1,57 @@
+.contact h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.contact ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.contact ul li .soc {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #3487E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact ul li .soc i {
+  color: white;
+}
+
+.contact ul li p {
+  border: none;
+  padding: 5px 2px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  min-width: 100px;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.contact ul li p:focus {
+  outline: none;
+}
+
+.contact ul li p:hover {
+  background-color: #dddd;
+}
+/*# sourceMappingURL=contact.css.map */

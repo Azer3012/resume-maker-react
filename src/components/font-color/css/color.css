@@ -1,0 +1,75 @@
+.color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.color button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.color button:hover {
+  border: 2px solid white;
+}
+
+.color span {
+  color: white;
+}
+
+.color .sub-menu {
+  position: absolute;
+  top: 100px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px 2px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.color .sub-menu button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50% !important;
+}
+
+.color .sub-menu label {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.color .sub-menu label input {
+  display: none;
+}
+/*# sourceMappingURL=color.css.map */

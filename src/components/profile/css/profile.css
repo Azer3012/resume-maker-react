@@ -1,0 +1,32 @@
+.profile {
+  margin-bottom: 45px;
+}
+
+.profile h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.profile p {
+  border: none;
+  padding: 5px 2px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  text-align: left;
+  max-width: 250px;
+  text-transform: capitalize;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.profile p:focus {
+  outline: none;
+}
+
+.profile p:hover {
+  background-color: #dddd;
+}
+/*# sourceMappingURL=profile.css.map */

@@ -1,0 +1,154 @@
+.education {
+  color: #A3A3A3;
+}
+
+.education h2 {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px 2px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 100%;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.education h2:focus {
+  outline: none;
+}
+
+.education h2:hover {
+  background-color: #dddd;
+}
+
+.education ul li {
+  border: 2px solid white;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .education ul li {
+    width: 80%;
+  }
+}
+
+.education ul li:hover {
+  border: 2px dashed #A3A3A3;
+}
+
+.education ul li:hover .add-remove {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.education ul li .circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: #3085E2 !important;
+  position: absolute;
+  left: -15px;
+  font-size: 22px;
+}
+
+.education ul li p {
+  border: none;
+  padding: 5px 2px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 100%;
+  color: #808080;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.education ul li p:focus {
+  outline: none;
+}
+
+.education ul li p:hover {
+  background-color: #dddd;
+}
+
+.education ul li h3 {
+  margin-bottom: 16px;
+  border: none;
+  padding: 5px 2px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 100%;
+  color: #808080;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.education ul li h3:focus {
+  outline: none;
+}
+
+.education ul li h3:hover {
+  background-color: #dddd;
+}
+
+.education ul li span {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  border: none;
+  padding: 5px 2px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #808080;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.education ul li span:focus {
+  outline: none;
+}
+
+.education ul li span:hover {
+  background-color: #dddd;
+}
+
+.education ul li .add-remove {
+  position: absolute;
+  right: -16px;
+  top: -14px;
+  display: none;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.education ul li .add-remove button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  background-color: #E87C07;
+  font-weight: 800;
+  cursor: pointer;
+}
+/*# sourceMappingURL=education.css.map */

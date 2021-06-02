@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;CAAG",
+    "sources": [
+        "left.sass"
+    ],
+    "names": [],
+    "file": "left.css"
+}

@@ -1,0 +1,12 @@
+.right {
+  padding-right: 80px;
+  padding-left: 60px;
+  width: 100%;
+}
+
+.right .lang-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=right.css.map */

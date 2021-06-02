@@ -1,0 +1,84 @@
+.skills h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.skills ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills ul li {
+  list-style: none;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills ul li:hover .add-remove {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.skills ul li span {
+  display: inline-block;
+  border: none;
+  padding: 5px 2px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #808080;
+  list-style: none;
+  position: relative;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+  background-color: #dddd;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skills ul li span:focus {
+  outline: none;
+}
+
+.skills ul li span:hover {
+  background-color: #dddd;
+}
+
+.skills ul li .add-remove {
+  position: absolute;
+  right: -16px;
+  top: -14px;
+  display: none;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.skills ul li .add-remove button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 5px;
+  background-color: #E87C07;
+  font-weight: 800;
+  cursor: pointer;
+  z-index: 1;
+}
+/*# sourceMappingURL=skills.css.map */

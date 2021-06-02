@@ -1,0 +1,51 @@
+.photo label {
+  width: 259.84px;
+  min-height: 259.84px;
+  background-color: #808080;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dddddd;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.photo label img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.photo label i {
+  font-size: 30px;
+}
+
+.photo label:hover {
+  color: white;
+}
+
+.photo label:hover i, .photo label:hover span {
+  opacity: 1 !important;
+}
+
+.photo label input {
+  display: none;
+}
+/*# sourceMappingURL=photo.css.map */

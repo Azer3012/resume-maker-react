@@ -1,0 +1,46 @@
+.color
+
+    display: flex
+    flex-direction: column
+    margin-right: 15px
+    justify-content: space-between
+    align-items: center
+    position: relative
+    button
+        display: inline-block
+        width: 50px
+        height: 50px
+        border: none
+        border-radius: 50%
+        transition: 0.2s
+        &:hover
+            border: 2px solid white
+        
+    span
+        color: white
+    .sub-menu
+        position: absolute
+        top: 100px
+        background-color: white
+        border: 1px solid black
+        padding: 15px 2px
+        transition: 0.4s
+
+        button
+            display: inline-block
+            width: 50px
+            height: 50px
+            border: none
+            border-radius: 50% !important
+        label
+            display: inline-block
+            width: 50px
+            height: 50px
+            border-radius: 50%
+            background-color: #ddd
+            display: flex
+            align-items: center
+            justify-content: center
+
+            input 
+                display: none

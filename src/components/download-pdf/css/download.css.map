@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,SADK,CACL,MAAM,CAAC;EACH,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,GAAG;CAGW;;AAVnC,AASQ,SATC,CACL,MAAM,CAQF,CAAC,CAAC;EACE,YAAY,EAAE,IAAI;CAAG",
+    "sources": [
+        "download.sass"
+    ],
+    "names": [],
+    "file": "download.css"
+}
