@@ -3,7 +3,7 @@ import { Context } from "../context/ContextProvider";
 import "./css/download.css";
 import ReactToPdf from "react-to-pdf";
 function Download() {
-  const { colors, color, btnColor,refPdf } = useContext(Context);
+  const { colors, color, btnColor, refPdf, azLang } = useContext(Context);
 
   const options = {
     orientation: "portrait",
@@ -11,7 +11,6 @@ function Download() {
     format: [700, 842],
   };
 
-  
   return (
     <div className="download">
       <ReactToPdf
@@ -25,7 +24,7 @@ function Download() {
         {({ toPdf }) => (
           <button onClick={toPdf} style={{ backgroundColor: btnColor }}>
             <i className="fa fa-download"></i>
-            DOWNLOAD PDF
+            {azLang ? "PDF YÜKLƏ" : "DOWNLOAD PDF"}
           </button>
         )}
       </ReactToPdf>

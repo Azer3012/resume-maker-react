@@ -4,10 +4,11 @@ import "./css/projects.css";
 import { Context } from "../context/ContextProvider";
 
 function Projects() {
-  const { color, projects, addProject, removeProject } = useContext(Context);
+  const { color, projects, addProject, removeProject, azLang } =
+    useContext(Context);
   return (
     <div className="projects">
-      <h3>PROJECTS</h3>
+      <h3>{azLang ? "PROYEKTLƏR" : "PROJECTS"}</h3>
       <ul>
         {projects.map((project) => (
           <li key={project.id}>
@@ -16,7 +17,9 @@ function Projects() {
             </span>
             <p contentEditable={true} suppressContentEditableWarning={true}></p>
             <div className="add-remove">
-              {projects.length>1&&<button onClick={e=>removeProject(project.id)}>-</button>}
+              {projects.length > 1 && (
+                <button onClick={(e) => removeProject(project.id)}>-</button>
+              )}
               <button onClick={addProject}>+</button>
             </div>
           </li>

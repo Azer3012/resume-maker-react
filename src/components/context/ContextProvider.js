@@ -57,11 +57,18 @@ const [siteLang,setSiteLang]=useState([
 ])
 
 
-const [selectedSiteLang,setSelectedSiteLang]=useState("")
+
+const [azLang,setAzLang]=useState(false)
+
 
 const selectedLang=(lang)=>{
-    setSelectedSiteLang(lang)
+    lang===siteLang[1].lang?setAzLang(true):setAzLang(false)
 }
+
+
+
+
+
 
 
   const clicked = () => {
@@ -141,7 +148,7 @@ const removeProject=(id)=>{
   return (
     <Context.Provider
       value={{ colors, color, changeColor, clicked, colorClickBtn, btnColor,fonts,changeFont,selectedFont,refPdf,
-        skills,addSkill,removeSkill,works,addWork,removeWork,educations,addEducation,removeEducation,langs,addLang,removeLang,projects,addProject,removeProject,siteLang,setSelectedSiteLang,selectedLang }}
+        skills,addSkill,removeSkill,works,addWork,removeWork,educations,addEducation,removeEducation,langs,addLang,removeLang,projects,addProject,removeProject,siteLang,selectedLang,azLang }}
     >
       {children}
     </Context.Provider>

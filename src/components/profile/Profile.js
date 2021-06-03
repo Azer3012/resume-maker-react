@@ -1,12 +1,20 @@
-import React from 'react'
-import './css/profile.css'
+import React, { useContext } from "react";
+import { Context } from "../context/ContextProvider";
+import "./css/profile.css";
 function Profile() {
-    return (
-        <div className="profile">
-            <h3>PROFILE</h3>
-            <p onFocus={e=>e.target.innerText=""} contentEditable={true} suppressContentEditableWarning={true}>write here about yourself</p>
-        </div>
-    )
+  const { azLang } = useContext(Context);
+  return (
+    <div className="profile">
+      <h3>{azLang ? "Haqqınızda" : "PROFILE"}</h3>
+      <p
+        onFocus={(e) => (e.target.innerText = "")}
+        contentEditable={true}
+        suppressContentEditableWarning={true}
+      >
+        {azLang ? "Özünüz haqda yazın" : "Write here about yourself"}
+      </p>
+    </div>
+  );
 }
 
-export default Profile
+export default Profile;
